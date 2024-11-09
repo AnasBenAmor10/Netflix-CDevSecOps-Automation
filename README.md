@@ -85,6 +85,12 @@ This project demonstrates a complete DevSecOps pipeline to deploy a Netflix clon
     - **Eclipse Temurin Installer**
     - **SonarQube Scanner**
     - **NodeJs Plugin**
+    - **OWASP Dependency-Check**
+    - **Docker**
+    - **Docker Commons**
+    - **Docker Pipeline**
+    - **Docker API**
+    - **docker-build-step**
     - **Email Extension Plugin**
 
 2. Configure **Global Tool Configuration**:
