@@ -5,7 +5,6 @@ This project demonstrates a complete DevSecOps pipeline to deploy a Netflix clon
 
 ## 🏗️ Project Architecture
 
-
 ![Project Architecture](images/architecture.jpeg)
 
 ---
@@ -158,6 +157,20 @@ This project demonstrates a complete DevSecOps pipeline to deploy a Netflix clon
 
 3. **Install Grafana**:
     Follow Grafana's [official documentation](https://grafana.com/docs/grafana/latest/installation/).
+
+---
+
+### 🚢 **Phase 5: Kubernetes, Helm, and ArgoCD**
+
+While Azure VMs are used in this project, container orchestration using Kubernetes provides scalability, self-healing, and automated deployment capabilities. In a Kubernetes context, this application could benefit from Helm charts for managing Kubernetes configurations, and ArgoCD for GitOps-driven continuous delivery. Here's a conceptual view of how these tools work together:
+
+1. **Kubernetes**: Hosts and orchestrates the application’s containers, providing robust scalability and management for microservices.
+
+2. **Helm**: Simplifies Kubernetes configurations by packaging application configurations into "charts," allowing for reusable, consistent deployment and configuration management.
+
+3. **ArgoCD**: Monitors the Git repository for changes and automatically applies updates to the Kubernetes cluster, following GitOps principles for more efficient and auditable deployments.
+
+Though Azure Kubernetes Service (AKS) could replace VMs for a fully managed Kubernetes environment on Azure, Kubernetes management is analogous across cloud platforms, including AWS (EKS) or Google Cloud (GKE).
 
 ---
 
