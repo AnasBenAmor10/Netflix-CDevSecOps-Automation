@@ -4,7 +4,6 @@
 This project demonstrates a complete DevSecOps pipeline to deploy a Netflix clone application on the cloud. Using Azure VMs for hosting, Docker for containerization, Jenkins for CI/CD automation, and Prometheus and Grafana for monitoring, this pipeline covers development, security, and operations phases, creating a secure and scalable deployment environment.
 
 ## 🏗️ Project Architecture
-Here's a high-level architecture of the project, detailing each phase from setup to deployment and monitoring. You can add an architecture diagram in the `images` folder and reference it here.
 
 
 ![Project Architecture](images/architecture.jpeg)
