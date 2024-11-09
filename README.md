@@ -1,4 +1,3 @@
-Here's an updated and more professional README structure for your project. I've incorporated Azure VM instead of EC2, added an overview, architecture section, and improved the structure with emojis for readability.
 # 🚀 Netflix-DevSecOps-Automation Project! 🌐
 
 ## 📜 Overview
